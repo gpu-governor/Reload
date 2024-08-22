@@ -20,7 +20,7 @@ with open('article.md') as markdown_file:
 
     
 # write new html file
-with open('index.html','w') as output_file:
+with open('new.html','w') as output_file:
     output_file.write(
         template.render(
             article=article
